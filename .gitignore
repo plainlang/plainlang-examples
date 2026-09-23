@@ -7,7 +7,7 @@ logging_config.yaml
 
 # Plain
 **/build/
-**/plain_modules/
+**/plain_modules/*/
 **/conformance_tests/
 **/node_plain_modules/
 **/node_conformance_tests/
