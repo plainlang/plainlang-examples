@@ -25,11 +25,6 @@ requires:
 
 ***functional specs***
 
-> Every functionality starts with a '# <func-id>' heading. The test scenarios of a
-> functionality live in the test plain file tests/task-manager/<func-id>.plain.
-> The required module 'typescript-react-app-boilerplate' brings its own functionality,
-> so it has a test plain file too: tests/typescript-react-app-boilerplate/entry-point.plain.
-
 # app-header
 :App: shows its header. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
 
