@@ -1,0 +1,14 @@
+---
+module: task-manager
+func_id: delete-task
+---
+
+***conformance tests***
+
+# delete-a-task
+A :User: adds a :Task: named `Buy milk`, activates the delete icon of that :Task: and confirms the deletion. :TaskList: is then empty.
+
+# keep-a-task-when-the-deletion-is-not-confirmed
+A :User: adds a :Task: named `Buy milk`, activates the delete icon of that :Task: and does not confirm the deletion. :TaskList: still shows the :Task: named `Buy milk`.
+
+***acceptance tests***

@@ -1,0 +1,17 @@
+---
+module: pong
+func_id: ball
+---
+
+***conformance tests***
+
+# ball-starts-in-the-center
+When the game starts, a square ball is shown in the center of the screen.
+
+# ball-moves-after-the-start
+One second after the game starts, the ball is no longer in the center of the screen.
+
+# ball-stays-between-the-top-and-the-bottom
+During 10 seconds of play without either :Paddle: moving, the ball is never drawn above the top edge or below the bottom edge of the playfield.
+
+***acceptance tests***

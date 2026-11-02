@@ -1,0 +1,11 @@
+---
+module: task-manager
+func_id: show-task-list
+---
+
+***conformance tests***
+
+# shows-an-empty-task-list
+Running :App: shows the main title `Task List`, the subtitle `All of your tasks in one place.`, the `Add New Task` button and no :Task: item.
+
+***acceptance tests***

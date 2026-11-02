@@ -1,0 +1,11 @@
+---
+module: task-manager
+func_id: edit-task
+---
+
+***conformance tests***
+
+# edit-the-name-of-a-task
+A :User: adds a :Task: named `Buy milk`, activates the edit icon of that :Task:, changes the name to `Buy bread` and saves. :TaskList: then shows one :Task: named `Buy bread`.
+
+***acceptance tests***

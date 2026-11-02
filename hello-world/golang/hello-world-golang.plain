@@ -20,7 +20,11 @@ import:
 
 ***functional specs***
 
-- Display "hello, world"
+> Every functionality starts with a '# <func-id>' heading. Its test scenarios
+> live in the test plain file tests/hello-world-golang/display-hello-world.plain.
+
+# display-hello-world
+:App: displays "hello, world".
 
 
 

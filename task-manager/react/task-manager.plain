@@ -25,17 +25,28 @@ requires:
 
 ***functional specs***
 
-- Show header of :App:. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
+> Every functionality starts with a '# <func-id>' heading. The test scenarios of a
+> functionality live in the test plain file tests/task-manager/<func-id>.plain.
+> The required module 'typescript-react-app-boilerplate' brings its own functionality,
+> so it has a test plain file too: tests/typescript-react-app-boilerplate/entry-point.plain.
 
-- Show :TaskList:. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
+# app-header
+:App: shows its header. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
 
-- :User: should be able to add :Task:. Only valid :Task: items can be added. The details of the user interface are provided in the file [add_new_task_modal_specification.yaml](add_new_task_modal_specification.yaml).
+# show-task-list
+:App: shows :TaskList:. The details of the user interface are provided in the file [task_list_ui_specification.yaml](task_list_ui_specification.yaml).
 
-- :User: should be able to delete :Task:
+# add-task
+A :User: can add a :Task:. Only valid :Task: items are added. The details of the user interface are provided in the file [add_new_task_modal_specification.yaml](add_new_task_modal_specification.yaml).
 
-- :User: should be able to edit :Task:
+# delete-task
+A :User: can delete a :Task:.
 
-- :User: should be able to mark :Task: as completed.
+# edit-task
+A :User: can edit a :Task:.
+
+# complete-task
+A :User: can mark a :Task: as completed.
 
 
 
