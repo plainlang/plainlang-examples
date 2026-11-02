@@ -1,0 +1,17 @@
+---
+module: pong
+func_id: paddle-controls
+---
+
+***conformance tests***
+
+# player-1-moves-with-w-and-s
+Sending `W` to :App: moves the left :Paddle: up and sending `S` moves it down.
+
+# player-2-moves-with-o-and-l
+Sending `O` to :App: moves the right :Paddle: up and sending `L` moves it down.
+
+# player-2-moves-with-the-arrow-keys
+Sending the up arrow key to :App: moves the right :Paddle: up and sending the down arrow key moves it down.
+
+***acceptance tests***

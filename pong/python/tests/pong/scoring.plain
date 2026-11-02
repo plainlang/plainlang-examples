@@ -1,0 +1,14 @@
+---
+module: pong
+func_id: scoring
+---
+
+***conformance tests***
+
+# score-starts-at-zero
+When the game starts, the top of the screen shows the score `0` for both players.
+
+# score-increases-after-a-goal
+When the ball leaves the playfield on the right side, the score of the left player at the top of the screen becomes `1`.
+
+***acceptance tests***

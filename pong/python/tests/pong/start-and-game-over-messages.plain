@@ -1,0 +1,14 @@
+---
+module: pong
+func_id: start-and-game-over-messages
+---
+
+***conformance tests***
+
+# start-message-with-instructions
+Running :App: shows `Press any key to start` together with the instructions how to play the game.
+
+# any-key-starts-the-game
+Sending any key while `Press any key to start` is shown removes the message and starts the game.
+
+***acceptance tests***

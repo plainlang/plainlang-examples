@@ -1,0 +1,11 @@
+---
+module: pong
+func_id: game-window
+---
+
+***conformance tests***
+
+# shows-the-game-title
+Running :App: shows `Pong` on the screen.
+
+***acceptance tests***

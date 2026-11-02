@@ -1,0 +1,17 @@
+---
+module: pong
+func_id: paddle-bounce-angle
+---
+
+***conformance tests***
+
+# center-hit-bounces-flat
+When the ball hits the center of a :Paddle: that does not move, the ball leaves the :Paddle: horizontally.
+
+# hit-above-the-center-bounces-upward
+When the ball hits a :Paddle: that does not move above its center, the ball leaves the :Paddle: upward.
+
+# hit-below-the-center-bounces-downward
+When the ball hits a :Paddle: that does not move below its center, the ball leaves the :Paddle: downward.
+
+***acceptance tests***

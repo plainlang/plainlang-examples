@@ -1,0 +1,14 @@
+---
+module: task-manager
+func_id: complete-task
+---
+
+***conformance tests***
+
+# mark-a-task-as-completed
+A :User: adds a :Task: named `Buy milk` and checks the checkbox of that :Task:. :TaskList: then shows the :Task: as completed.
+
+# clear-the-completed-mark-of-a-task
+A :User: adds a :Task: named `Buy milk`, checks the checkbox of that :Task: and checks it again. :TaskList: then shows the :Task: as not completed.
+
+***acceptance tests***

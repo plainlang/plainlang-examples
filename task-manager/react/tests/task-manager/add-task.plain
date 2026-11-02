@@ -1,0 +1,17 @@
+---
+module: task-manager
+func_id: add-task
+---
+
+***conformance tests***
+
+# add-a-task
+A :User: opens the `Add New Task` modal with the `Add New Task` button, enters the task name `Buy milk`, the description `Two liters` and the due date 9 October, and chooses `Save`. :TaskList: then shows one :Task: with the name `Buy milk`, the description `Two liters` and the date `9. Oct`.
+
+# add-a-task-with-the-name-only
+A :User: opens the `Add New Task` modal, enters the task name `Buy milk` and chooses `Save`. :TaskList: then shows one :Task: named `Buy milk`.
+
+# cancel-adding-a-task
+A :User: opens the `Add New Task` modal, enters the task name `Buy milk` and chooses `Cancel`. The modal closes and :TaskList: stays empty.
+
+***acceptance tests***

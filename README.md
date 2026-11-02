@@ -52,6 +52,13 @@ codeplain name_of_specs_file.plain
 
 Examples include a `config.yaml` file that is used to provide per-project (per example) configuration for the `codeplain` CLI. `config.yaml` can include all CLI parameters, so you can keep example-specific flags/settings versioned with the project.
 
+### Test scenarios
+
+Each functionality in a `.plain` file starts with a `# <func-id>` heading. Its test scenarios are in a
+separate test plain file, by convention `tests/<module>/<func-id>.plain`. The `codeplain` client reads
+the folder named by `tests-folder` in `config.yaml` and generates the conformance tests from the
+scenarios it finds there.
+
 ### Scripts
 
 Folder `scripts` contains scripts used by *codeplain platform to run unit and conformance tests against these examples.

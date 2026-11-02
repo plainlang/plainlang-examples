@@ -1,4 +1,5 @@
 conformance-tests-script: ../../scripts/run_conformance_tests_cypress.sh
+tests-folder: tests
 copy-build: true
 build-dest: build
 verbose: true # verbose flag, defaults to false if not set

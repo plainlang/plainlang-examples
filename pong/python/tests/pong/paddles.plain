@@ -1,0 +1,14 @@
+---
+module: pong
+func_id: paddles
+---
+
+***conformance tests***
+
+# one-paddle-on-each-side
+After the game starts, the screen shows one :Paddle: near the left edge and one :Paddle: near the right edge of the playfield.
+
+# left-paddle-reaches-the-top-and-the-bottom
+Sending `W` to :App: 50 times moves the left :Paddle: to the top bound, and the whole :Paddle: is still on the screen. Sending `S` 50 times after that moves it to the bottom bound, and the whole :Paddle: is still on the screen.
+
+***acceptance tests***
