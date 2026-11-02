@@ -10,9 +10,6 @@ import:
 
 ***functional specs***
 
-> Every functionality starts with a '# <func-id>' heading. This example has no
-> conformance tests script, so it has no test plain files.
-
 # game-view
 The screen orientation is locked to landscape mode. :App: has a full-screen game view and its title is :GameTitle:.
 
